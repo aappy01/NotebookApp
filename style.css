@@ -32,15 +32,17 @@
   height: 30px;
 }
 .input-box{
-  width: 100%;
-  margin: 10px auto;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: rgb(238, 238, 238);
   border-radius: 15px;
+  padding-left: 20px;
+  margin: 25px auto;
 }
 .input{
-  flex-basis: 80%;
-  padding: 12px 7px;
+  flex:1;
+  padding: 12px;
   outline: 0;
   border: 0;
   background: transparent;
@@ -49,8 +51,7 @@
   color: rgb(197, 196, 196);
 }
 .input-btn{
-  flex-basis: 20%;
-  padding: 7px;
+  padding: 10px 40px;
   outline: 0;
   border: 0;
   background: #237A57;
@@ -111,10 +112,16 @@
     overflow-x: hidden;
   }
   .container{
-    padding: 20px;
+    /* padding: 20px; */
   }
   .notebook{
     width: 100%;
     max-width: auto;
+  }
+  .input-box{
+    padding-left: 0;
+  }
+  .input-btn{
+    padding: 10px 20px;
   }
 }
