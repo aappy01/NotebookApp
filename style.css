@@ -111,17 +111,19 @@
   body{
     overflow-x: hidden;
   }
-  .container{
-    /* padding: 20px; */
-  }
   .notebook{
-    width: 100%;
     max-width: auto;
   }
   .input-box{
+    display: inline-block;
+    width: 100%;
     padding-left: 0;
   }
+  .input{
+    padding: 12px;
+  }
   .input-btn{
-    padding: 10px 20px;
+    float: right;
+    padding: 10px 30px;
   }
 }
